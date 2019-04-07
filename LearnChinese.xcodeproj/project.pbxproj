@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		465299EF2256FA5400BFB26F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465299EE2256FA5400BFB26F /* AppDelegate.swift */; };
-		465299F12256FA5400BFB26F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465299F02256FA5400BFB26F /* ViewController.swift */; };
+		465299F12256FA5400BFB26F /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465299F02256FA5400BFB26F /* TranslationViewController.swift */; };
 		465299F42256FA5400BFB26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465299F22256FA5400BFB26F /* Main.storyboard */; };
 		465299F62256FA5700BFB26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465299F52256FA5700BFB26F /* Assets.xcassets */; };
 		465299F92256FA5700BFB26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465299F72256FA5700BFB26F /* LaunchScreen.storyboard */; };
 		46529A042256FA5700BFB26F /* LearnChineseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46529A032256FA5700BFB26F /* LearnChineseTests.swift */; };
 		46529A0F2256FA5700BFB26F /* LearnChineseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46529A0E2256FA5700BFB26F /* LearnChineseUITests.swift */; };
+		46529A1D2256FAD800BFB26F /* CharactersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46529A1C2256FAD800BFB26F /* CharactersCollectionViewController.swift */; };
+		46529A1F2256FE4F00BFB26F /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46529A1E2256FE4F00BFB26F /* CharacterCell.swift */; };
+		46BB5502225783AD00B788C9 /* Char.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BB5501225783AD00B788C9 /* Char.swift */; };
+		46BB5504225783CD00B788C9 /* CharacterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BB5503225783CD00B788C9 /* CharacterStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		465299EB2256FA5400BFB26F /* LearnChinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnChinese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		465299EE2256FA5400BFB26F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		465299F02256FA5400BFB26F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		465299F02256FA5400BFB26F /* TranslationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
 		465299F32256FA5400BFB26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		465299F52256FA5700BFB26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		465299F82256FA5700BFB26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		46529A0A2256FA5700BFB26F /* LearnChineseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnChineseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46529A0E2256FA5700BFB26F /* LearnChineseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnChineseUITests.swift; sourceTree = "<group>"; };
 		46529A102256FA5700BFB26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46529A1C2256FAD800BFB26F /* CharactersCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionViewController.swift; sourceTree = "<group>"; };
+		46529A1E2256FE4F00BFB26F /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		46BB5501225783AD00B788C9 /* Char.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Char.swift; sourceTree = "<group>"; };
+		46BB5503225783CD00B788C9 /* CharacterStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				465299EE2256FA5400BFB26F /* AppDelegate.swift */,
-				465299F02256FA5400BFB26F /* ViewController.swift */,
+				465299F02256FA5400BFB26F /* TranslationViewController.swift */,
+				46529A1C2256FAD800BFB26F /* CharactersCollectionViewController.swift */,
+				46529A1E2256FE4F00BFB26F /* CharacterCell.swift */,
+				46BB5501225783AD00B788C9 /* Char.swift */,
+				46BB5503225783CD00B788C9 /* CharacterStore.swift */,
 				465299F22256FA5400BFB26F /* Main.storyboard */,
 				465299F52256FA5700BFB26F /* Assets.xcassets */,
 				465299F72256FA5700BFB26F /* LaunchScreen.storyboard */,
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465299F12256FA5400BFB26F /* ViewController.swift in Sources */,
+				46529A1D2256FAD800BFB26F /* CharactersCollectionViewController.swift in Sources */,
+				46BB5504225783CD00B788C9 /* CharacterStore.swift in Sources */,
+				465299F12256FA5400BFB26F /* TranslationViewController.swift in Sources */,
 				465299EF2256FA5400BFB26F /* AppDelegate.swift in Sources */,
+				46BB5502225783AD00B788C9 /* Char.swift in Sources */,
+				46529A1F2256FE4F00BFB26F /* CharacterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
